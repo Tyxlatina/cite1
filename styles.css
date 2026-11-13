@@ -1,0 +1,46 @@
+table {
+    border-collapse: collapse ;
+    margin-left: 20px;
+}
+
+/*th, td {
+    border: 1px solid red; 
+    padding: 8px;            
+}*/
+
+.dopystim th, 
+.dopystim td{
+    border: 1px solid red; /* граница таблицы*/
+    padding: 8px;            /*внутренние отступы*/
+}
+
+.prikl th, 
+.prikl td{
+    border: 5px solid rgb(0, 255, 119); /* граница таблицы*/
+    padding: 8px;            /*внутренние отступы*/
+
+}
+.pp {
+    padding: 12px;
+    width: 600px;
+}
+
+
+.red {
+    
+    background: rgb(255, 120, 120);
+}
+.pup {
+    
+    background: rgb(238, 45, 255);
+}
+.pink {
+    
+    background: rgb(225, 155, 217);
+}
+
+
+
+.flip_vert {
+    transform: scaleY(-1);
+}
